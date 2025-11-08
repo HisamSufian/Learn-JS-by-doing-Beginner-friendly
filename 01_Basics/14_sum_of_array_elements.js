@@ -22,8 +22,11 @@ rl.question("Enter numbers separated by spaces: ", (input) => {
     console.log("❌ Please enter only numbers.");
   } else {
     // You can use either loop or reduce:
-    // Using reduce:
-    const sum = arr.reduce((acc, num) => acc + num, 0);
+    let sum = 0;
+        for (const num of arr) {
+            sum += num;
+        }
+    // Using reduce: const sum = arr.reduce((acc, num) => acc + num, 0);
 
     console.log(`✅ The sum of the array elements is: ${sum}`);
   }
