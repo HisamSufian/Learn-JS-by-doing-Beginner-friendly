@@ -13,7 +13,7 @@ const readline = require("readline");
 const rl = readline.createInterface({ input: process.stdin, output: process.stdout });
 
 rl.question("Enter a sentence: ", (input) => {
-  const words = input.trim().split(/\s+/);
+  const words = input.trim().replace(/[^\w\s]/g, "").split(/\s+/);
 
   if (words.length === 0 || !words[0]) {
     console.log("❌ Please enter a valid sentence.");
