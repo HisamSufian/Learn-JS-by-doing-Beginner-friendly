@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Problem 38 – color change Button Click</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      background-color: #f9f9f9;
+    }
+
+    h2 {
+      color: #027700;
+    }
+
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: #0078d4;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #005ea3;
+    }
+  </style>
+</head>
+<body>
+  <h2>🎯 Problem 38 – DOM Button Click color change</h2>
+  <p>Click the button below to change the background color.</p>
+
+  <!-- 🔘 Button element -->
+  <button id="clickBtn">Click Me!</button>
+
+  <script>
+    /**
+     * 🧠 Explanation:
+     * document.getElementById("clickBtn") → selects the button by its ID.
+     * addEventListener("click", callback) → runs the callback function whenever the button is clicked.
+     * alert("...") → displays a browser pop-up message.
+     */
+
+    document.addEventListener('DOMContentLoaded', () => {
+    const button = document.getElementById('clickBtn');
+    const body = document.body;
+
+    const colors = ['lightblue', 'lightgreen', 'lightcoral', 'lightgoldenrodyellow', 'lavender'];
+    let currentColorIndex = 0;
+
+    button.addEventListener('click', () => {
+        // Change background color
+        body.style.backgroundColor = colors[currentColorIndex];
+
+        // Move to the next color in the array, or loop back to the beginning
+        currentColorIndex = (currentColorIndex + 1) % colors.length;
+    });
+});
+  </script>
+</body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Problem 38 – Change Background Color</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      transition: background-color 0.5s ease;
+    }
+
+    h2 {
+      margin-bottom: 10px;
+    }
+
+    button {
+      padding: 12px 20px;
+      font-size: 16px;
+      background-color: #333;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+      border-radius: 6px;
+      transition: 0.3s;
+    }
+
+    button:hover {
+      background-color: #555;
+    }
+
+    #colorBox {
+      margin-top: 20px;
+      font-size: 18px;
+      font-weight: bold;
+      color: #000;
+      background: #fff;
+      padding: 8px 16px;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+<body>
+
+  <h2>🎨 Problem 38 – Change Background Color</h2>
+  <p>Click the button to change the background color.</p>
+
+  <button id="colorBtn">Change Background</button>
+
+  <!-- Displays current color -->
+  <div id="colorBox">Current Color: #FFFFFF</div>
+
+  <script>
+    /**
+     * 🧠 How It Works:
+     * - Math.random() → generates a random number between 0 and 1
+     * - Convert that into a HEX color (e.g., #A1B2C3)
+     * - document.body.style.backgroundColor → changes page color
+     * - Update the box showing the new color
+     */
+
+    const btn = document.getElementById("colorBtn");
+    const colorBox = document.getElementById("colorBox");
+
+    // Generate a random HEX color
+    const randomColor = () => {
+      // 16777215 is FFFFFF in decimal (max hex color)
+      return "#" + Math.floor(Math.random() * 16777215).toString(16).padStart(6, "0");
+    };
+
+    btn.addEventListener("click", () => {
+      const color = randomColor();
+      document.body.style.backgroundColor = color;
+      colorBox.textContent = `Current Color: ${color}`;
+    });
+  </script>
+
+</body>
+</html>
