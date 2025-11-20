@@ -39,13 +39,14 @@ or
 VS Code → "Go Live" / "Preview in Browser".
 ```
 
-<br>  
+<br>
+
 # 🎯 Learning Roadmap
 
 ### 🟢 01_Basics
 👉 -Hello World,  -Loops,  conditions,  Functions,  Prime check,  palindrome,  Fibonacci,  factorial
-  
 <br>  
+
 
 ### 🟡 02_Arrays & Strings
 👉  -Reverse array,  Count vowels,  Word frequency,  Sorting,  Flatten array,  Find missing number
@@ -66,9 +67,10 @@ VS Code → "Go Live" / "Preview in Browser".
 ✔ Pure vanilla JavaScript
 ✔ Perfect prep for interviews & projects
 
-  <br>  
+<br>  
 
 # 📌 Next Step
+
 
 A separate repo for Mini JavaScript Projects (Todo App, Calculator, Weather App, etc.) will extend this learning.
 
