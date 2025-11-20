@@ -19,7 +19,7 @@ All tasks are written with:
 - Safe input validation  
 - Beginner-friendly structure  
 
---
+---
 # 🚀 How to Run JavaScript Files
 
 ### ▶ Node.js Console Problems (1–35)
