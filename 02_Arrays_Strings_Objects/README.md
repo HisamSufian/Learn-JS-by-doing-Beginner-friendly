@@ -1,24 +1,25 @@
 # 🟡 02 – Arrays, Strings & Objects (Problems 21–30)
 
-This section covers **intermediate-level JavaScript** operations with arrays, strings, and object manipulation.
+This folder teaches core JavaScript data manipulation skills:  arrays, strings, objects, and real-world operations.
 
 ---
 
 # 📝 Problem List (21–30)
 
-| # | Problem | Key Concepts |
-|---|---------|--------------|
-|21 | Remove Duplicates | Sets & filtering |
-|22 | Find Max & Min | Array traversal |
-|23 | Reverse Array Manually | Loop logic |
-|24 | Word Frequency Counter | Objects + loops |
-|25 | Flatten Nested Array | Recursion / iteration |
-|26 | Count Vowels | String traversal |
-|27 | Sort Array (Bubble/Selection) | Sorting basics |
-|28 | Find Missing Number | Math patterns |
-|29 | Capitalize Each Word | String formatting |
-|30 | Find Longest Word | String comparison |
+# 📝 Problem List (21–30)
 
+| #  | Problem                     | Key Concepts                        |
+|----|-----------------------------|--------------------------------------|
+| 21 | Remove Duplicates           | Set, filtering, arrays               |
+| 22 | Flatten Nested Array        | Recursion / nested iteration         |
+| 23 | Capitalize Each Word        | String formatting                    |
+| 24 | Object Iteration            | Keys, values, loops                  |
+| 25 | Word Occurrence Counter     | Text frequency using objects         |
+| 26 | Merge Two Arrays            | Spread operator, deduplication       |
+| 27 | Sort Strings                | Sorting algorithms                   |
+| 28 | Average of Array Elements   | Array math                           |
+| 29 | Filter Even/Odd Numbers     | Filter method, conditions            |
+| 30 | Find Longest Word           | Parsing and string comparison        |
 ---
 
 # 🚀 Run a File
