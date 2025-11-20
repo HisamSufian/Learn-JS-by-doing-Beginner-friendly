@@ -25,13 +25,14 @@ Run like:
 
 ```bash
 node folder/problem.js
-
+```
 Example:
 node 01_Basics/03_even_odd.js
 
 
 ▶ DOM/Browser Tasks (36–40)
 Use a live server:
+```
 npm run serve:html
 or
 VS Code → "Go Live" / "Preview in Browser".
