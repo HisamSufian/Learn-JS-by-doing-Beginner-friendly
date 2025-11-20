@@ -54,7 +54,7 @@ VS Code → "Go Live" / "Preview in Browser".
 
   
 ### 🔵 03_ES6 + DOM
-👉  -Arrow functions,  -Destructuring,  -Map,  -filter,  -reduce,  -Random number generator,  -Stopwatch console app,  -DOM button click,  -Background color changer,  -Form validation
+👉Modern JS + DOM:  -Arrow functions,  -Destructuring,  -Map,  -filter,  -reduce,  -Random number generator,  -Stopwatch console app,  -DOM button click,  -Background color changer,  -Form validation
 
 <br>  
 
