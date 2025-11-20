@@ -6,30 +6,30 @@ They focus on **syntax, loops, conditions, math, and basic logic**.
 
 ---
 
-## 📝 Problem List (1–20)
+# 📝 Problem List (1–20)
 
-| #  | File name                         | Problem title                          |
-|----|-----------------------------------|----------------------------------------|
-| 1  | `01_hello_world.js`              | Hello World                            |
-| 2  | `02_simple_calculator.js`        | Simple Calculator                      |
-| 3  | `03_even_odd.js`                 | Even or Odd Check                      |
-| 4  | `04_largest_of_three.js`         | Largest of Three Numbers               |
-| 5  | `05_multiplication_table.js`     | Multiplication Table                   |
-| 6  | `06_sum_of_natural_numbers.js`   | Sum of Natural Numbers                 |
-| 7  | `07_print_odd_numbers.js`        | Print Odd Numbers (within a range)     |
-| 8  | `08_factorial_function.js`       | Factorial of a Number                  |
-| 9  | `09_palindrome_check.js`         | Palindrome Check (string / number)     |
-| 10 | `10_fibonacci_series.js`         | Fibonacci Series                       |
-| 11 | `11_prime_number_check.js`       | Prime Number Check                     |
-| 12 | `12_count_divisors.js`           | Count Divisors of a Number             |
-| 13 | `13_find_missing_number.js`      | Find Missing Number (basic array)      |
-| 14 | `14_sum_of_array_elements.js`    | Sum of Array Elements                  |
-| 15 | `15_reverse_string.js`           | Reverse a String                       |
-| 16 | `16_count_vowels.js`             | Count Vowels in a String               |
-| 17 | `17_find_max_min.js`             | Find Maximum and Minimum in Array      |
-| 18 | `18_array_sorting.js`            | Sort an Array (basic sorting)          |
-| 19 | `19_word_frequency_counter.js`   | Word Frequency Counter                 |
-| 20 | `20_number_guessing_game.js`     | Number Guessing Game                   |
+| #  | Problem                        | Key Concepts                       |
+|----|--------------------------------|------------------------------------|
+| 1  | Hello World                   | Console output                     |
+| 2  | Simple Calculator             | Operators, basic math              |
+| 3  | Even or Odd Check             | Conditional logic                  |
+| 4  | Largest of Three Numbers      | If–else decision making            |
+| 5  | Multiplication Table          | Loops                              |
+| 6  | Sum of Natural Numbers        | Loop + arithmetic                  |
+| 7  | Print Odd Numbers             | Loop + condition                   |
+| 8  | Factorial Function            | Iterative logic                    |
+| 9  | Palindrome Check              | String reverse logic               |
+| 10 | Fibonacci Series              | Loop patterns                      |
+| 11 | Prime Number Check            | Math + loops                       |
+| 12 | Count Divisors                | Loop + modulo                      |
+| 13 | Find Missing Number           | Array pattern detection            |
+| 14 | Sum of Array Elements         | Array iteration                    |
+| 15 | Reverse String                | String manipulation                |
+| 16 | Count Vowels                  | Character iteration                |
+| 17 | Find Max & Min                | Array traversal                    |
+| 18 | Array Sorting (Basic)         | Sorting logic                      |
+| 19 | Word Frequency Counter        | Text processing, objects           |
+| 20 | Number Guessing Game          | Random numbers, game logic         |
 
 ---
 
