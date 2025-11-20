@@ -14,7 +14,7 @@ This repo is designed for total beginners who want to learn by *doing*, not read
 
 
 All tasks are written with:
-- Clear explanations  - Clean code  - Safe input validation  - Beginner-friendly structure  
+- Clear explanations  - > Clean code  - > Safe input validation  - > Beginner-friendly structure  
 
 ---
 # 🚀 How to Run JavaScript Files
