@@ -39,52 +39,34 @@ or
 VS Code → "Go Live" / "Preview in Browser".
 ```
 
-🎯 Learning Roadmap
-🟢 01_Basics
+# 🎯 Learning Roadmap
 
-Hello World
+### 🟢 01_Basics
+-- Hello World
+-- Loops, conditions
+-- Functions
+-- Prime check, palindrome
+-- Fibonacci, factorial
 
-Loops, conditions
+### 🟡 02_Arrays & Strings
+-- Reverse array
+-- Count vowels
+-- Word frequency
+-- Sorting
+-- Flatten array
+-- Find missing number
 
-Functions
+### 🔵 03_ES6 + DOM
+-- Arrow functions
+-- Destructuring
+-- Map, filter, reduce
+-- Random number generator
+-- Stopwatch console app
+-- DOM button click
+-- bBackground color changer
+-- Form validation
 
-Prime check, palindrome
-
-Fibonacci, factorial
-
-🟡 02_Arrays & Strings
-
-Reverse array
-
-Count vowels
-
-Word frequency
-
-Sorting
-
-Flatten array
-
-Find missing number
-
-🔵 03_ES6 + DOM
-
-Arrow functions
-
-Destructuring
-
-Map, filter, reduce
-
-Random number generator
-
-Stopwatch console app
-
-DOM button click
-
-Background color changer
-
-Form validation
-
-⭐ Why This Repo is Different
+# ⭐ Why This Repo is Different
 
 ✔ No theory overload
 ✔ Every problem has a purpose
@@ -93,11 +75,11 @@ Form validation
 ✔ Pure vanilla JavaScript
 ✔ Perfect prep for interviews & projects
 
-📌 Next Step
+# 📌 Next Step
 
 A separate repo for Mini JavaScript Projects (Todo App, Calculator, Weather App, etc.) will extend this learning.
 
-Stay curious and keep coding! 💙
+### Stay curious and keep coding! 💙
 
 
 
