@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Problem 40 – Form Validation</title>
+
+<style>
+  /* === Make body take full height and center everything === */
+  body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;   /* center horizontally */
+    align-items: center;       /* center vertically */
+    background: #eef1f5;       /* soft light background */
+    font-family: "Segoe UI", Arial, sans-serif;
+  }
+
+  /* === Professional container box === */
+    .container {
+        background: white;
+        width: 360px;
+        padding: 30px 40px; /* wider inside spacing */
+        border-radius: 12px;
+        box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+        text-align: center;
+    }
+
+
+  h2 {
+    margin-top: 0;
+    margin-bottom: 18px;
+    font-size: 24px;
+    color: #333;
+    font-weight: 600;
+  }
+
+  /* === Professional input styling === */
+  input {
+    width: 90%;          /* narrower */
+    margin: 10px auto;   /* centered */
+    padding: 12px 14px;
+    border-radius: 8px;
+    border: 1.5px solid #ccc;
+    font-size: 16px;
+    display: block;      /* ensures centering */
+}
+
+
+  input:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+  }
+
+  /* === Submit button === */
+  button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 14px;
+    border: none;
+    border-radius: 8px;
+    font-size: 17px;
+    background: #007bff;
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.2s;
+  }
+
+  button:hover {
+    background: #0069d9;
+  }
+
+  /* === Message styling === */
+  .error {
+    color: #d93025;
+    text-align: left;
+    margin: 5px 0;
+    font-size: 14px;
+  }
+
+  .success {
+    color: #179c4b;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+</style>
+
+</head>
+<body>
+
+<div class="container">
+  <h2>📝 Form Validation</h2>
+
+  <div id="messages"></div>
+
+  <input type="text" id="name" placeholder="Enter your name">
+  <input type="email" id="email" placeholder="Enter your email">
+  <input type="password" id="password" placeholder="Enter password (min 6 chars)">
+
+  <button id="submit">Submit</button>
+</div>
+
+<script>
+  const nameField = document.getElementById("name");
+  const emailField = document.getElementById("email");
+  const passwordField = document.getElementById("password");
+  const submitBtn = document.getElementById("submit");
+  const messages = document.getElementById("messages");
+
+  const isValidEmail = (email) => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+
+  submitBtn.addEventListener("click", () => {
+    messages.innerHTML = "";
+    let errors = [];
+
+    if (nameField.value.trim() === "") errors.push("❌ Name is required.");
+    if (emailField.value.trim() === "") {
+      errors.push("❌ Email is required.");
+    } else if (!isValidEmail(emailField.value)) {
+      errors.push("❌ Invalid email format.");
+    }
+    if (passwordField.value.length < 6) {
+      errors.push("❌ Password must be at least 6 characters.");
+    }
+
+    if (errors.length > 0) {
+      errors.forEach(err => {
+        let p = document.createElement("p");
+        p.classList.add("error");
+        p.innerText = err;
+        messages.appendChild(p);
+      });
+    } else {
+      let success = document.createElement("p");
+      success.classList.add("success");
+      success.innerText = "✅ Form submitted successfully!";
+      messages.appendChild(success);
+    }
+  });
+</script>
+
+</body>
+</html>
