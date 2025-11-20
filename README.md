@@ -12,7 +12,6 @@ This repo is designed for total beginners who want to learn by *doing*, not read
 03_ES6_Functions_DOM/ → Arrow functions, destructuring, DOM tasks
 
 
-
 All tasks are written with:
 - Clear explanations  
 - Clean code  
