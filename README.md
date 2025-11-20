@@ -17,7 +17,7 @@ All tasks are written with:
 - Safe input validation  
 - Beginner-friendly structure  
 
----
+--
 
 # 🚀 How to Run JavaScript Files
 
