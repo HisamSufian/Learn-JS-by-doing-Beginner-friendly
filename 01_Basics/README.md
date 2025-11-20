@@ -1,7 +1,4 @@
 
----
-
-```markdown
 # 🟢 01 – JavaScript Basics (Beginner Level)
 
 This folder contains **foundational JavaScript problems**, ideal for absolute beginners.
