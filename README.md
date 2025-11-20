@@ -44,12 +44,12 @@ VS Code → "Go Live" / "Preview in Browser".
 # 🎯 Learning Roadmap
 
 ### 🟢 01_Basics
-👉 -Hello World,  -Loops,  conditions,  Functions,  Prime check,  palindrome,  Fibonacci,  factorial
+👉Foundational JavaScript:  -Hello World,  -variables,  -Loops,  -conditions,  -Functions,  -Prime check,  -palindrome,  -Fibonacci,  -factorial,  -patterns,  -games.
 <br>  
 
 
 ### 🟡 02_Arrays & Strings
-👉  -Reverse array,  Count vowels,  Word frequency,  Sorting,  Flatten array,  Find missing number
+👉Core real-world operations:  -Reverse array,  -Count vowels,  -Word frequency,  -Sorting,  -Flatten array,  -Find missing number
 <br>  
 
   
