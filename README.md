@@ -42,29 +42,13 @@ VS Code → "Go Live" / "Preview in Browser".
 # 🎯 Learning Roadmap
 
 ### 🟢 01_Basics
--- Hello World
--- Loops, conditions
--- Functions
--- Prime check, palindrome
--- Fibonacci, factorial
+👉Hello World, 👉Loops, 👉conditions, 👉Functions, 👉Prime check, 👉palindrome, 👉Fibonacci, 👉factorial
 
 ### 🟡 02_Arrays & Strings
--- Reverse array
--- Count vowels
--- Word frequency
--- Sorting
--- Flatten array
--- Find missing number
+👉 Reverse array, 👉 Count vowels, 👉 Word frequency, 👉 Sorting, 👉 Flatten array, 👉 Find missing number
 
 ### 🔵 03_ES6 + DOM
--- Arrow functions
--- Destructuring
--- Map, filter, reduce
--- Random number generator
--- Stopwatch console app
--- DOM button click
--- bBackground color changer
--- Form validation
+👉 Arrow functions, 👉 Destructuring, 👉 Map, filter, reduce, 👉 Random number generator, 👉 Stopwatch console app, 👉 DOM button click, 👉 Background color changer, 👉 Form validation
 
 # ⭐ Why This Repo is Different
 
