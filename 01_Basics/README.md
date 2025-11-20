@@ -1,7 +1,6 @@
 # 🟢 01 – JavaScript Basics (Problems 1–20)
 
-This folder contains **20 foundational JavaScript problems**, designed  
-to build logic, syntax understanding, and confidence.
+This folder contains **20 foundational JavaScript problems**, designed  to build logic, syntax understanding, and confidence.
 
 ---
 
