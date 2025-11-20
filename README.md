@@ -1,7 +1,6 @@
 # 📘 Learn JavaScript by Doing – Beginner Friendly
 
-A hands-on JavaScript learning path with **progressive problems**,  
-**real-world practice**, **console apps**, and **DOM tasks**.
+A hands-on JavaScript learning path with **progressive problems**,  **real-world practice**, **console apps**, and **DOM tasks**.
 
 This repo is designed for total beginners who want to learn by *doing*, not reading.
 
