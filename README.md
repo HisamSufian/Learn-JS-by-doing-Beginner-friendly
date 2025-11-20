@@ -12,14 +12,14 @@ This repo is designed for total beginners who want to learn by *doing*, not read
 02_Arrays_Strings_Objects/ → Arrays, strings, objects, sorting, HOFs  
 03_ES6_Functions_DOM/ → Arrow functions, destructuring, DOM tasks  
 
---
+
 All tasks are written with:
 - Clear explanations  
 - Clean code  
 - Safe input validation  
 - Beginner-friendly structure  
 
-
+--
 # 🚀 How to Run JavaScript Files
 
 ### ▶ Node.js Console Problems (1–35)
