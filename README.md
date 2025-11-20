@@ -10,8 +10,7 @@ This repo is designed for total beginners who want to learn by *doing*, not read
 01_Basics/ → Variables, loops, conditions, functions  
 02_Arrays_Strings_Objects/ → Arrays, strings, objects, sorting, HOFs  
 03_ES6_Functions_DOM/ → Arrow functions, destructuring, DOM tasks
-
-
+--
 All tasks are written with:
 - Clear explanations  
 - Clean code  
