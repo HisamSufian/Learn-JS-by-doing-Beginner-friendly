@@ -6,8 +6,6 @@ This folder teaches core JavaScript data manipulation skills:  arrays, strings, 
 
 # 📝 Problem List (21–30)
 
-# 📝 Problem List (21–30)
-
 | #  | Problem                     | Key Concepts                        |
 |----|-----------------------------|--------------------------------------|
 | 21 | Remove Duplicates           | Set, filtering, arrays               |
