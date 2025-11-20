@@ -55,6 +55,7 @@ VS Code → "Go Live" / "Preview in Browser".
   
 ### 🔵 03_ES6 + DOM
 👉  -Arrow functions,  -Destructuring,  -Map,  -filter,  -reduce,  -Random number generator,  -Stopwatch console app,  -DOM button click,  -Background color changer,  -Form validation
+
 <br>  
 
     
@@ -70,8 +71,6 @@ VS Code → "Go Live" / "Preview in Browser".
 <br>  
 
 # 📌 Next Step
-
-
 A separate repo for Mini JavaScript Projects (Todo App, Calculator, Weather App, etc.) will extend this learning.
 
 ### Stay curious and keep coding! 💙
