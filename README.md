@@ -1,8 +1,7 @@
-# 📘 Learn JavaScript by Doing – Beginner Friendly
+# 📘 Learn JavaScript by Doing – Beginner Friendly  
+A complete hands-on learning path with **40 progressive JavaScript problems**, organized into three clear levels: Basics → Arrays/Strings → ES6 + DOM.
 
-A hands-on JavaScript learning path with **progressive problems**,  **real-world practice**, **console apps**, and **DOM tasks**.
-
-This repo is designed for total beginners who want to learn by *doing*, not reading.
+This repo is designed for beginners who want to learn JavaScript **by coding real problems**, not just reading theory.
 
 ---
 
@@ -41,6 +40,14 @@ VS Code → "Go Live" / "Preview in Browser".
 
 <br>
 
+# 📈 What You Learn in This Repo
+✔ JavaScript fundamentals
+✔ Core algorithmic thinking
+✔ ES6 modern features
+✔ Real UI manipulation
+✔ Console-based mini applications
+
+
 # 🎯 Learning Roadmap
 
 ### 🟢 01_Basics
@@ -57,7 +64,6 @@ VS Code → "Go Live" / "Preview in Browser".
 👉Modern JS + DOM:  -Arrow functions,  -Destructuring,  -Map,  -filter,  -reduce,  -Random number generator,  -Stopwatch console app,  -DOM button click,  -Background color changer,  -Form validation
 
 <br>  
-
     
 # ⭐ Why This Repo is Different
 
